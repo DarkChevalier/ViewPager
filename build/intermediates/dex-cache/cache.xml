@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/sunzhibin/Downloads/VideoProject/libs/gson-2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bd858833cacb4e6742f7698649fb874a360e230f">
+        <dex dex="/Users/sunzhibin/Downloads/VideoProject/build/intermediates/pre-dexed/debug/gson-2.1_9a816d0403848a3bbadd938f1e79bf7f6246a2bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunzhibin/Downloads/VideoProject/libs/android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ded9acc6a9792b8f1afc470f0c9cd36d178914cd">
+        <dex dex="/Users/sunzhibin/Downloads/VideoProject/build/intermediates/pre-dexed/debug/android-support-v4_623fe0f5813adb8acb557d8d063cbe9325558118.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunzhibin/Downloads/VideoProject/libs/android-async-http-1.4.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881">
+        <dex dex="/Users/sunzhibin/Downloads/VideoProject/build/intermediates/pre-dexed/debug/android-async-http-1.4.5_db9a87652c5afd7e5e2f477d6a49485389914402.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunzhibin/Downloads/VideoProject/libs/SMSSDK-1.1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="10d96debb0a87d303bbed7d908c3a6f9a01b3307">
+        <dex dex="/Users/sunzhibin/Downloads/VideoProject/build/intermediates/pre-dexed/debug/SMSSDK-1.1.5_e22c4fd16203ed0fc3da893f8bdbb36dd0d5c4c6.jar" />
+    </item>
+
+</items>

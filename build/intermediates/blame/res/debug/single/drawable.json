@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/drawable/smssdk_btn_disenable.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/drawable/smssdk_btn_disenable.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/drawable/bg_category_bar.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/drawable/bg_category_bar.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/drawable/dot_focused.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/drawable/dot_focused.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/drawable/smssdk_dialog_btn_back.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/drawable/smssdk_dialog_btn_back.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/drawable/textview_border.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/drawable/textview_border.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/drawable/bg_category_indicator.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/drawable/bg_category_indicator.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/drawable/dot_normal.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/drawable/dot_normal.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/drawable/ic_category_left_edge.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/drawable/ic_category_left_edge.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/drawable/smssdk_btn_enable.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/drawable/smssdk_btn_enable.xml"
+    }
+]

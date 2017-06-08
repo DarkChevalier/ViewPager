@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/category_tab.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/category_tab.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/fragment_2.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/fragment_2.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/activity_title.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/activity_title.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/activity_bottom.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/activity_bottom.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/activity_home.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/activity_regist.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/activity_regist.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/smssdk_progress_dialog.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/smssdk_progress_dialog.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/smssdk_back_verify_dialog.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/smssdk_back_verify_dialog.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/activity_home_main.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/activity_home_main.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/ad_bottom_item.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/ad_bottom_item.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/activity_input_identify_num.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/activity_input_identify_num.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/fragment_3.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/fragment_3.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/fragment_footable.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/fragment_footable.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/activity_video_item.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/activity_video_item.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/smssdk_send_msg_dialog.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/smssdk_send_msg_dialog.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/fragment_4.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/fragment_4.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/activity_my.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/activity_my.xml"
+    },
+    {
+        "merged": "/Users/sunzhibin/Downloads/VideoProject/build/intermediates/res/merged/debug/layout/activity_main_regist.xml",
+        "source": "/Users/sunzhibin/Downloads/VideoProject/res/layout/activity_main_regist.xml"
+    }
+]

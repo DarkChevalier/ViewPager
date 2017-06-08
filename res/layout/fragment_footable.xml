@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#ffffff"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:id="@+id/MySearchScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/linear_all"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linear_imgscroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.video.videoproject.ImgScroll.MyImgScroll
+                    android:id="@+id/myvp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="182dp" />
+                
+            </LinearLayout> 
+
+           <LinearLayout
+                android:id="@+id/linear_hotvideo"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_below="@+id/linear_imgscroll"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_video_remen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="10dp"
+                    android:text="热点视频"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+                <GridView
+                    android:id="@+id/gv_hotvideo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnWidth="121dp"
+                    android:gravity="center"
+                    android:numColumns="auto_fit"
+                    android:paddingRight="12dp"
+                    android:stretchMode="columnWidth" >
+                </GridView>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linear_yinying"
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:layout_below="@+id/linear_hotvideo"
+                android:orientation="vertical"
+                android:background="@drawable/pic_fengexian" >           
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_newvideo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/linear_yinying"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_video_new"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="最新视频"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+                <GridView
+                    android:id="@+id/gv_newvideo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnWidth="121dp"
+                    android:gravity="center"
+                    android:numColumns="auto_fit"
+                    android:paddingRight="12dp"
+                    android:stretchMode="columnWidth" >
+                </GridView>
+            </LinearLayout>  
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

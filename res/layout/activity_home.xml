@@ -1,0 +1,191 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#eee"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/MySearchScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/linear_all"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="#366924"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/iv_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="65dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/logo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RadioGroup
+                    android:id="@+id/rb_tab_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/nocheck_text_bg"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rb_youngfootable"
+                        android:layout_width="96dp"
+                        android:layout_height="51dp"
+                        android:background="@drawable/check_text_bg"
+                        android:clickable="true"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:paddingLeft="0dp"
+                        android:text="青年足球"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_center1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="51dp"
+                        android:src="@drawable/center_text"
+                        android:visibility="gone" />
+
+                    <RadioButton
+                        android:id="@+id/rb_midfield"
+                        android:layout_width="96dp"
+                        android:layout_height="51dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/nocheck_text_bg"
+                        android:clickable="true"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:paddingLeft="0dp"
+                        android:text="中场"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_center2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="51dp"
+                        android:src="@drawable/center_text" />
+
+                    <RadioButton
+                        android:id="@+id/rb_forward"
+                        android:layout_width="96dp"
+                        android:layout_height="51dp"
+                        android:background="@drawable/nocheck_text_bg"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:button="@null"
+                        android:paddingLeft="0dp"
+                        android:text="前锋"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_center3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="51dp"
+                        android:src="@drawable/center_text" />
+
+                    <RadioButton
+                        android:id="@+id/rb_guard"
+                        android:layout_width="96dp"
+                        android:layout_height="51dp"
+                        android:background="@drawable/nocheck_text_bg"
+                        android:clickable="true"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:paddingLeft="0dp"
+                        android:text="后卫"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.video.videoproject.ImgScroll.MyImgScroll
+                    android:id="@+id/myvp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="182dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_video_remen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="15dp"
+                    android:text="热点视频"
+                    android:textColor="#ffffff"
+                    android:textSize="13sp" />
+                
+                <GridView 
+			        android:id="@+id/gridview_hotvideo"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:numColumns="auto_fit" 
+			        android:gravity="center"       
+					android:columnWidth="121dp"
+					android:paddingRight="12dp"
+					android:stretchMode="columnWidth"></GridView>
+
+               <!--  换实现方式了，本来使用横向ListView，但中间有很长的间隔，没找出原因 
+                <com.video.videoproject.xListView.HorizontalListView
+                    android:id="@+id/horizon_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp" /> -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_video_new"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="8dp"
+                    android:text="最新视频"
+                    android:textColor="#ffffff"
+                    android:textSize="13sp" />
+
+               <GridView 
+			        android:id="@+id/gridview_newvideo"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:gravity="center"     
+			        android:numColumns="auto_fit"    
+					android:columnWidth="121dp"
+					android:paddingRight="12dp"
+					android:stretchMode="columnWidth"></GridView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

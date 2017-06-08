@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/sunzhibin/Downloads/VideoProject/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/sunzhibin/Downloads/VideoProject/build-types/debug/shaders"/></dataSet></merger>
